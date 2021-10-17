@@ -1,0 +1,39 @@
+.container {
+    text-align: center;
+    padding-top: 30vh;
+}
+
+#input-integer-form {
+    width: 40vw;
+    height: 40px;
+    padding: 1vw 3vw;
+    border: 1px solid rgb(226, 226, 226);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#calculate-btn {
+    display: block;
+    margin-top: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5vw;
+    height: 40px;
+    background: none;
+    border: 1px solid rgb(226, 226, 226);
+    cursor: pointer;
+}
+
+#calculate-btn:hover {
+    background-color: rgba(119, 118, 118, 0.068);
+}
+
+.display {
+    margin-top: 2vw;
+}
+
+#max,
+#min,
+#odd {
+    margin-right: 3vw;
+}
